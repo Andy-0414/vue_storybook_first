@@ -5,9 +5,9 @@ import { action } from "@storybook/addon-actions";
 import CircleButton from "../components/CircleButton.vue";
 
 export default {
-	component: CircleButton,
-	title: "CircleButton",
-	decorators: [withKnobs],
+	component: CircleButton, // 컴포넌트 등록
+	title: "CircleButton", // 컴포넌트 이름
+	decorators: [withKnobs], // 에드온
 };
 
 export const plus = () => ({
